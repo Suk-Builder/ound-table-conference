@@ -22,3 +22,14 @@
 ---
 Powered by 月夜见 (Moonlight Oracle) v2.0
 
+
+## BUG FIX (2026-05-22)
+
+### 错误
+-196884/744² = -0.355 ≠ -1/744 = -0.00134 (差264倍)
+
+### 修正
+f_NL = -(degeneracy of first excited level)^(-1) = -1/744
+来源: AdS₃/CFT₂全息对偶 + Monster CFT模不变性
+验证: 24 × 31 = 744 ✓
+
